@@ -1,0 +1,6 @@
+*** HelloWP changelog ***
+
+
+2020-06-20 - version 1.0.2
+ * initial release
+

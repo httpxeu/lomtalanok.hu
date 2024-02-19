@@ -1,0 +1,966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HelloPack\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hellopack\n"
+"POT-Creation-Date: 2023-02-10T08:39:07+00:00\n"
+"PO-Revision-Date: 2023-04-21 06:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: Magyar\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hellopack-updater.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Loco-Version: 2.6.4; wp-6.1.2"
+
+#: includes/modules/tester/tester-class.php:100
+#: includes/modules/tester/tester-class.php:138
+msgid " - or ask your hosting provider to do this if you are unsure."
+msgstr ""
+" - ha bizonytalan vagy, akkor vedd fel a kapcsolatot a "
+"tárhelyszolgáltatóddal."
+
+#: includes/modules/tester/tester-class.php:183
+msgid " - or ask your hosting provider to do this if you’re unsure. "
+msgstr ""
+" - ha bizonytalan vagy, akkor vedd fel a kapcsolatot a "
+"tárhelyszolgáltatóddal. "
+
+#: includes/modules/tester/tester-class.php:138
+msgid " is too small. Please set your PHP max execution time to at least "
+msgstr " alacsony. Kérlek, hogy a PHP futásidő legyen legalább "
+
+#: includes/modules/tester/tester-class.php:72
+msgid ""
+" may be enough, however, for proper functioning of Elementor Pro, a minimum "
+"of 1024 M memory limit is recommended. If you are having issues please set "
+"your PHP memory limit to at least 1024M - or ask your hosting provider to do "
+"this if you're unsure. <a href='https://elementor.com/help/requirements/' "
+"target='_blank'>Elementor’s system requirements</a>"
+msgstr ""
+" elegendő lehet. Azonban, ha az Elementor PRO bővítményt használod, akkor "
+"javasoljuk, hogy legalább 1024M memória limitet állíts be. Amennyiben "
+"bizonytalan vagy, akkor vedd fel a kapcsolatot a tárhelyszolgáltatóddal. <a "
+"href='https://support.hellowp.io/hu/help/tudasbazis/elementor/elementor-"
+"ajanlott-tarhelybeallitasok/' target='_blank'>Elementor: ajánlott "
+"tárhelybeállítások</a>"
+
+#: includes/modules/tester/tester-class.php:119
+msgid ""
+" may be too small. If you are having issues please set your PHP max input "
+"vars to at least "
+msgstr ""
+" alacsony. Ez olyan hibákhoz vezethet, hogy nem ment el az oldal megfelelően "
+"tartalmakat. Például 20 menüpontból csak 10 menüt ment el. A megfelelő "
+"működéshez legyen legalább "
+
+#: includes/modules/tester/tester-class.php:78
+msgid ""
+" may be too small. If you are having issues please set your PHP memory limit "
+"to at least 256M - or ask your hosting provider to do this if you're unsure."
+msgstr ""
+" lehet, hogy alacsony lesz. Amennyiben problémákat tapasztalsz a PHP "
+"feltöltési korlát legyen legalább "
+
+#: includes/modules/tester/tester-class.php:100
+msgid ""
+" may be too small. If you are having issues please set your PHP upload "
+"limits to at least "
+msgstr ""
+" lehet, hogy alacsony lesz. Amennyiben problémákat tapasztalsz a PHP "
+"feltöltési korlát legyen legalább "
+
+#: includes/modules/tester/tester-class.php:183
+msgid " Please ensure PHP is allowed to connect to the host "
+msgstr " Győződj meg róla, hogy a PHP kapcsolódhat-e a szerverhez "
+
+#: includes/class-hellopack-util.php:172
+msgid "%1$s Schema found in the database."
+msgstr ""
+
+#. translators: 1: HPack_Logger::log 2: level
+#: includes/logger/class-hellopack-logger.php:127
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr "A (z)%1$s érvénytelen &quot;%2$s&quot; címmel lett nevezve."
+
+#: includes/modules/tester/tester-class.php:119
+msgid "- or ask your hosting provider to do this if you're unsure."
+msgstr ""
+" - ha bizonytalan vagy, akkor vedd fel a kapcsolatot a "
+"tárhelyszolgáltatóddal."
+
+#: includes/modules/module-hellopack-elementor.php:14
+msgid ""
+"<strong>The current Elementor PRO version on the site is outdated</strong>, "
+"and it is not compatible with HelloPack. Please upgrade to at least "
+"Elementor PRO 3.9.2. This is highly recommended for technical and security "
+"reasons."
+msgstr ""
+"<strong>Az oldalon jelenleg régi Elementor PRO fut</strong>, ami nem "
+"kompatibilis a HelloPack-al. Kérlek, hogy frissíts minimum Elementor PRO 3.9."
+"2-re. Ez erősen ajánlott technikai és biztonsági okok miatt."
+
+#. translators: 1: title of affecting items 2: host to add in whitelist 3: constant name where host should be added
+#: static/notices/html-notice-external-block.php:9
+msgid ""
+"<strong>Warning!</strong> You're blocking external requests which means you "
+"won't be able to get %1$s updates. Please add %2$s to %3$s."
+msgstr ""
+
+#: static/scripts/hp-settings.js:6
+msgid "__"
+msgstr ""
+
+#: static/scripts/hp-settings.js:7
+msgctxt "_x_context"
+msgid "_x"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:57
+msgid "Activate"
+msgstr "Aktiválás"
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:57
+msgid "Activate &#8220;%s&#8221;"
+msgstr ""
+
+#: static/partials/settings.php:62
+msgid "Activate API Key"
+msgstr "API-kulcs aktiválása"
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:24
+msgid "Activate Plugin"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:322
+#: static/scripts/hp-settings.js:147 static/scripts/hp-settings.js:187
+msgid "Activated"
+msgstr "A csomagkezelő aktív"
+
+#: static/scripts/hp-settings.js:147 static/scripts/hp-settings.js:187
+msgid "Activated?"
+msgstr "Csomagkezelő állapota"
+
+#: includes/settings/class-hellopack-admin.php:441
+msgid "Activating License on the server..."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:298
+msgid "Active Plugins"
+msgstr "Aktív bővítmények száma"
+
+#: includes/settings/class-hellopack-admin.php:606
+msgid "Ajax request was initiated from unauthorised source."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:421
+msgid "API Activation did not take place, because unknown error occurred."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:640
+#: includes/settings/class-hellopack-admin.php:706
+msgid "API Call could not be made for unknown reason"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:152
+msgid "API Domain"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:160
+msgid "API Key"
+msgstr "API-kulcs"
+
+#: includes/settings/class-hellopack-admin.php:348
+msgid "API Key Creator"
+msgstr "API-kulcskészítő"
+
+#: static/notices/html-notice-status.php:8
+msgid "Attention!"
+msgstr "Figyelem!"
+
+#: includes/modules/tester/tester-class.php:232
+msgid "Authenticated with the HelloPack API. All ok."
+msgstr ""
+"Sikeresen csatlakoztál a HelloPack API-kulcsoddal. Minden rendben van. "
+
+#: includes/settings/class-hellopack-admin.php:411
+msgid "Both Product ID and API Key field is required   sss"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:348
+msgid "Change to the new key by 2023-07-01! You can find it here:"
+msgstr ""
+"2023-07-01-ig módosítsd az új kulcsra! Itt találod:\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: static/partials/settings.php:95
+msgid "Changelog"
+msgstr "Változások"
+
+#: includes/settings/class-hellopack-admin.php:292
+msgid "Check API Status from the server."
+msgstr "API állapotának ellenőrzése."
+
+#: includes/settings/class-hellopack-admin.php:293
+msgid "Check License"
+msgstr "Licensz ellenőrzése"
+
+#: includes/settings/class-hellopack-admin.php:193
+msgid "Check License Status"
+msgstr "Licenc állapotának ellenőrzése"
+
+#: includes/modules/module-hellopack-plugin-tester.php:49
+msgid "Check the necessary hosting settings and communication between servers."
+msgstr ""
+"A szükséges tárhely beállítások és a szerverek közötti kommunikáció "
+"ellenőrzése."
+
+#: includes/settings/class-hellopack-admin.php:417
+msgid "Checking License status..."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:281
+msgid "Clean up local settings"
+msgstr "Helyi beállítások törlése"
+
+#: includes/settings/class-hellopack-admin.php:201
+msgid "Cleanup Local Settings"
+msgstr "Helyi beállítások"
+
+#: includes/modules/tester/tester-class.php:177
+msgid "Connected ok."
+msgstr "A kapcsolódás sikeres és minden megfelelően működik."
+
+#: includes/modules/tester/tester-class.php:190
+msgid ""
+"Connection failed. Please contact the hosting provider and ensure PHP is "
+"allowed to connect to the host "
+msgstr ""
+"A kapcsolódás sikertelen. Ez nagyon fontos a HelloPack megfelelő működéséhez."
+" Kérlek, hogy vedd fel a kapcsolatot a tárhelyszolgáltatóddal és kérd meg, "
+"hogy segítsen neked kideríteni, hogy miért nem kapcsolódik a weboldalad a "
+"következő címen lévő szerverhez: "
+
+#: includes/modules/tester/tester-class.php:183
+msgid "Connection failed. Status "
+msgstr "Kapcsolódási hiba. Státusz: "
+
+#: includes/modules/module-hellopack-plugin-tester.php:86
+msgid "Copy & Paste Info"
+msgstr "Másolás és beillesztés "
+
+#: static/partials/header.php:85
+msgid "Dashboard"
+msgstr "Vezérlőpult"
+
+#: includes/settings/class-hellopack-admin.php:185
+#: includes/settings/class-hellopack-admin.php:304
+msgid "Deactivate License"
+msgstr "Licensz törlése"
+
+#: includes/settings/class-hellopack-admin.php:303
+msgid ""
+"Deactivate your current API activation on the main server <code>www.hellowp."
+"io</code>"
+msgstr ""
+"A license törlése az oldalról és az oldal törlése a <code>hellowp.io</code> "
+"szerverről"
+
+#: includes/settings/class-hellopack-admin.php:320
+#: static/scripts/hp-settings.js:147 static/scripts/hp-settings.js:187
+msgid "Deactivated"
+msgstr "A csomagkezelő nem aktív"
+
+#: includes/settings/class-hellopack-admin.php:531
+msgid "Diable the HelloPack logging."
+msgstr "HelloPack naplózás kikapcsolása."
+
+#: includes/settings/class-hellopack-admin.php:234
+msgid "Disable Logging"
+msgstr "Naplózás letiltása"
+
+#: includes/settings/class-hellopack-admin.php:523
+msgid "Disable WooCommerce Updater notice"
+msgstr "Wootheme figyelmeztetések kikapcsolása"
+
+#: static/notices/html-notice-custom.php:10
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-hellopack-util.php:32
+msgid "Docs"
+msgstr "Dokumentáció"
+
+#: static/partials/settings.php:95
+msgid "Documentation"
+msgstr "Dokumentáció"
+
+#: includes/upgrader/class-hellopack-plugin-upgrader.php:33
+#: includes/upgrader/class-hellopack-theme-upgrader.php:33
+msgid "Downloading the HPack install package&#8230;"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-upgrader.php:21
+#: includes/upgrader/class-hellopack-theme-upgrader.php:21
+msgid "Downloading the HPack upgrade package&#8230;"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:219
+msgid "Error message: "
+msgstr ""
+
+#: includes/class-hellopack-updater.php:306
+msgid "Every two hours"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:579
+msgid "Extra"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:125
+msgid ""
+"Failed to check input vars limit. If you are having issues please ask "
+"hosting provider to raise the input vars limit for you."
+msgstr ""
+"Nem tudtuk ellenőrizni a PHP max input vars értékét. Amennyiben bizonytalan "
+"vagy, akkor vedd fel a kapcsolatot a tárhelyszolgáltatóddal. "
+
+#: includes/modules/tester/tester-class.php:85
+msgid ""
+"Failed to check memory limit. If you are having issues please ask hosting "
+"provider to raise the memory limit for you."
+msgstr ""
+"Sikertelen feltöltési limit ellenőrzés. Amennyiben problémákat tapasztalsz, "
+"kérd meg a tárhelyszolgáltatót, hogy emelje fel a feltöltési korlátot neked."
+
+#: includes/modules/tester/tester-class.php:144
+msgid ""
+"Failed to check PHP execution time limit. Please ask hosting provider to "
+"raise this limit for you."
+msgstr ""
+"Nem lehet ellenőrizni a PHP futásidejét. Kérlek, vedd fel a kapcsolatot a "
+"tárhelyszolgáltatóddal."
+
+#: includes/modules/tester/tester-class.php:106
+msgid ""
+"Failed to check upload limit. If you are having issues please ask hosting "
+"provider to raise the upload limit for you."
+msgstr ""
+"Sikertelen feltöltési limit ellenőrzés. Amennyiben problémákat tapasztalsz, "
+"kérd meg a tárhelyszolgáltatót, hogy emelje fel a feltöltési korlátot neked."
+
+#: hellopack-updater.php:34
+msgid ""
+"For proper functioning of the <strong>HelloPack</strong> plugin, a minimum "
+"of PHP 7.4 is required. This is highly recommended for both security and "
+"technical reasons. Ask your hosting provider to do this if you are unsure."
+msgstr ""
+"A <strong>HelloPack</strong> bővítmény megfelelő működéséhez legalább PHP 7."
+"4 szükséges. Ez erősen ajánlott biztonsági és technikai okokból is. Ha "
+"bizonytalan vagy, kérj a tárhelyszolgáltatótól segítséget."
+
+#: includes/class-hellopack-updater.php:301
+msgid "Four times daily"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: includes/modules/module-hellopack-plugin-installer.php:106
+#: includes/settings/class-hellopack-admin.php:109
+#: includes/settings/class-hellopack-admin.php:110
+#: includes/settings/class-hellopack-admin.php:119
+#: includes/settings/class-hellopack-admin.php:120
+msgid "HelloPack"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:153
+msgid "HelloPack API server"
+msgstr "HelloPack API szerver"
+
+#: includes/modules/tester/tester-class.php:225
+#: includes/modules/tester/tester-class.php:231
+#: includes/modules/tester/tester-class.php:238
+msgid "HelloPack API status"
+msgstr "HelloPack API státusz"
+
+#: includes/modules/tester/tester-class.php:158
+msgid "HelloPack Client API server"
+msgstr "HelloPack kliens server"
+
+#: static/partials/header.php:63 static/partials/header.php:70
+msgid "HelloPack Dashboard"
+msgstr "HelloPack beállítások"
+
+#: includes/modules/tester/tester-class.php:163
+msgid "HelloPack Download server"
+msgstr "HelloPack letöltő szerver"
+
+#: static/notices/html-notice-activate.php:8
+msgid "HelloPack License Activation"
+msgstr "HelloPack API-kulcs aktiválása"
+
+#: static/partials/settings.php:29
+msgid "HelloPack License Key Activation"
+msgstr "HelloPack aktiválása"
+
+#: includes/settings/class-hellopack-admin.php:242
+msgid "HelloPack menu"
+msgstr "HelloPack menü"
+
+#: includes/modules/module-hellopack-plugin-tester.php:24
+#: includes/modules/module-hellopack-plugin-tester.php:25
+msgid "HelloPack tester"
+msgstr "HelloPack tesztelő"
+
+#. Author of the plugin
+msgid "HelloWP Ltd"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:258
+msgid "Hide plugins menu"
+msgstr "Beépített bővítménytelepítő"
+
+#: includes/modules/module-hellopack-plugin-tester.php:47
+#: includes/modules/module-hellopack-plugin-tester.php:92
+msgid "Hosting and communication test"
+msgstr "Szerver és kommunikáció tesztelése"
+
+#. translators: 1: title of affecting items 2: host to add in whitelist 3: constant name where host should be added
+#: static/notices/html-notice-external-block.php:9
+msgid "HPack Plugins and Themes"
+msgstr ""
+
+#. translators: 1: constant definition to disable cron 2: value to activate cron
+#: static/notices/html-notice-cron.php:10
+msgid ""
+"HPack Updater depends on WP Cron to sync data, please remove %1$s or set to -"
+" %2$s."
+msgstr ""
+
+#: static/notices/notice-inactive.php:8
+msgid "HPack Updater License Inactive"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://hellowp.io"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:278
+msgid ""
+"If you are having troubles with cleaning up activations or activations on "
+"both main server and your site are not in sync, please delete entries on "
+"main server from hellowp.io against this domain, then clean up local "
+"settings and try to activate your license once again."
+msgstr ""
+"Amennyiben gondok léptek fel az aktiválással vagy nem egyeznek az adatok az "
+"oldalon és a Console-ban, akkor könnyedén törölheted a helyi beállításokat"
+
+#: includes/modules/tester/tester-class.php:247
+msgid ""
+"If you are on a production website, it is best to set WP_DEBUG to false, "
+"please ask your hosting provider to do this if you are unsure. <a "
+"href=\"https://codex.wordpress.org/Debugging_in_WordPress\" "
+"target=\"_blank\">Learn more</a>"
+msgstr ""
+"Amennyiben nem fejlesztés alatt álló weboldalról van szó, nem ajánlott a "
+"WP_DEBUG bekapcsolása. Ha bizonytalan vagy, akkor vedd fel a kapcsolatot a "
+"tárhelyszolgáltatóddal. <a href=\"https://wordpress."
+"org/documentation/article/debugging-in-wordpress/\" target=\"_blank\">Tudj "
+"meg többet</a>"
+
+#: includes/settings/class-hellopack-admin.php:523
+#: includes/settings/class-hellopack-admin.php:561
+msgid "If you enable it, the built-in plugin installer will be hidden."
+msgstr "Ha bekapcsolod, akkor a beépített bővítménytelepítő eltűnik."
+
+#: includes/modules/module-hellopack-plugin-installer.php:141
+msgid "Install plugins from the HelloPack repository."
+msgstr ""
+"Keresés a HelloPack bővítménykönyvtárban. Itt találod az összes HelloPack "
+"bővítményt."
+
+#: includes/modules/tester/tester-class.php:72
+#: includes/modules/tester/tester-class.php:78
+#: includes/modules/tester/tester-class.php:100
+#: includes/modules/tester/tester-class.php:119
+msgid "is ok at "
+msgstr "megfelelő, "
+
+#: includes/modules/tester/tester-class.php:290
+msgid "is ok."
+msgstr "rendben van"
+
+#: includes/settings/class-hellopack-admin.php:578
+msgid "License"
+msgstr "Licensz ellenőrzése"
+
+#: includes/settings/class-hellopack-admin.php:468
+msgid ""
+"License activated successfully! Please, check your Dashboard under \"API "
+"Keys\" section on hellowp.io."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:453
+msgid "License activation failed: "
+msgstr "A licenc aktiválása nem sikerült: "
+
+#: includes/settings/class-hellopack-admin.php:480
+msgid "License key already activated for this site."
+msgstr "A kulcsod már aktiválva volt!"
+
+#: includes/settings/class-hellopack-admin.php:177
+msgid "License Status"
+msgstr "Licensz állapota"
+
+#: includes/settings/class-hellopack-admin.php:438
+msgid "License status checked successfully!"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:47
+msgid "Live Preview"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:47
+msgid "Live Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:732
+msgid "Local settings is cleared!"
+msgstr "A helyi beállítások sikeresen törölve lettek!"
+
+#: includes/modules/tester/tester-class.php:269
+msgid ""
+"Many plugins (such as Elementor Pro) and WordPress itself are not compatible "
+"with PHP 8.1. Please use at most PHP 8.0."
+msgstr ""
+"Sok bővítmény (példul az Elementor Pro) és maga a WordPress sem kompatibilis "
+"PHP 8.1-el. Maximum PHP 8.0-át használj."
+
+#: static/notices/html-notice-status.php:9
+msgid ""
+"Maybe your license is not activated or unable to be verified by server. "
+"Please check your <strong><a href=\"https://hellowp.io/my-account\" "
+"target=\"_blank\" title=\"HPack Account\">Account page</a></strong> or "
+"contact Admin."
+msgstr ""
+"Valami hiba lépett fel az API-kulcs ellenőrzése közben. Kérjük, ellenőrizd "
+"az <strong><a href=\"https://hellowp.io/hu/helloconsole/hellopack-"
+"kozpont/api-creator/\" target=\"_blank\" title=\"HPack fiók\">API-"
+"kulcsodat</a></strong> vagy vedd fel a kapcsolatot az adminisztrátorral.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: includes/settings/class-hellopack-admin.php:539
+msgid "Move the HelloPack menu item under the Plugins menu."
+msgstr "HelloPack áthelyezése a Bővítmények menübe."
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:31
+msgid "Network Activate"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:52
+msgid "Network Enable"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:226
+msgid "Not currently authenticated with the HelloPack API. "
+msgstr ""
+"Jelenleg nem lehet a HelloPack API ellenőrzést elvégezni. Az oldal jelenleg "
+"nem fog frissítéseket kapni. "
+
+#: includes/modules/tester/tester-class.php:137
+#: includes/modules/tester/tester-class.php:142
+msgid "PHP Execution Time"
+msgstr "PHP futásideje"
+
+#: includes/modules/tester/tester-class.php:138
+msgid "PHP execution time limit is ok at "
+msgstr "megfelelő, "
+
+#: includes/modules/tester/tester-class.php:118
+#: includes/modules/tester/tester-class.php:123
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Bemeneti Változók"
+
+#: includes/modules/tester/tester-class.php:70
+#: includes/modules/tester/tester-class.php:76
+#: includes/modules/tester/tester-class.php:83
+msgid "PHP Memory Limit"
+msgstr "PHP memória limit"
+
+#: includes/modules/tester/tester-class.php:99
+#: includes/modules/tester/tester-class.php:104
+msgid "PHP Upload Limits"
+msgstr "PHP fájl feltöltési limit"
+
+#: includes/modules/tester/tester-class.php:260
+#: includes/modules/tester/tester-class.php:268
+msgid "PHP Version"
+msgstr "PHP verzió"
+
+#: includes/modules/tester/tester-class.php:261
+msgid "PHP version is ok at "
+msgstr "megfelelő, "
+
+#: includes/modules/tester/tester-class.php:221
+#: includes/modules/tester/tester-class.php:239
+msgid "Please add your API key and activate the HelloPack plugin again."
+msgstr ""
+"Kérlek, add hozzá újra az API-kulcsodat a HelloPack klienshez és nyomd meg "
+"az aktiválás gombot. "
+
+#: includes/modules/tester/tester-class.php:261
+msgid ""
+"Please ask the hosting provider to upgrade your PHP version to at least 7.0 "
+"or above."
+msgstr ""
+"Kérd meg a tárhelyszolgáltatódat, hogy minimum 7.4-re állítsák a PHP-t az "
+"oldalad megfelelő működéséhez. "
+
+#: includes/modules/tester/tester-class.php:280
+msgid ""
+"Please enable WordPress FS_METHOD direct - or ask your hosting provider to "
+"do this if you’re unsure."
+msgstr ""
+"Kérlek engedélyezd a WordPress FS_METHOD direct opciót. Amennyiben "
+"bizonytalan vagy, akkor vedd fel a kapcsolatot a tárhelyszolgáltatóddal."
+
+#: includes/modules/tester/tester-class.php:290
+msgid ""
+"Please set correct WordPress PHP write permissions for the wp-content "
+"directory - or ask your hosting provider to do this if you’re unsure."
+msgstr ""
+"Kérlek állítsd be a megfelelő írási jogosultságokat a PHP számára a wp-"
+"content mappához. Amennyiben bizonytalan vagy, akkor vedd fel a kapcsolatot "
+"a tárhelyszolgáltatóddal."
+
+#: includes/modules/tester/tester-class.php:299
+msgid ""
+"Please try to reduce the number of active plugins on your WordPress site, as "
+"this will slow things down."
+msgstr ""
+"Amennyiben lassulást tapasztalsz, akkor ennek az egyik oka lehet, hogy túl "
+"sok bővítmény fut az oldalon. "
+
+#: static/notices/html-notice-activate.php:9
+msgid ""
+"Please, activate your license to get access to HelloPack and the plugins."
+msgstr ""
+"Kérlek, aktiváld az API-kulcsodat, hogy hozzáférj a HelloPack "
+"csomagkezelőhöz és a bővítményekhez. Jelenleg nem aktív a csomagkezelő, így "
+"nem fog az oldal frissítéseket kapni."
+
+#: includes/settings/class-hellopack-admin.php:341
+#: includes/settings/class-hellopack-admin.php:352
+msgid "Please, enter the API key from HelloPack center page."
+msgstr "Kérlek, add meg a HelloPack API-kulcsodat, amit itt találsz meg:"
+
+#: static/partials/header.php:103
+msgid "Plugins"
+msgstr "Bővítmények"
+
+#: includes/settings/class-hellopack-admin.php:491
+msgid "Processing extra settings..."
+msgstr ""
+
+#: static/scripts/hp-settings.js:144 static/scripts/hp-settings.js:184
+msgid "Purchased Activations"
+msgstr "Aktiválások száma"
+
+#: static/scripts/hp-settings.js:146 static/scripts/hp-settings.js:186
+msgid "Remaining Activations"
+msgstr "Ennyi aktiválás maradt"
+
+#: includes/api/class-hellopack-api-manager.php:494
+msgid "Request data:"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:402
+#: includes/settings/class-hellopack-admin.php:659
+#: includes/settings/class-hellopack-admin.php:723
+msgid ""
+"Request is not authorized and recognized as insecure or malicious request to "
+"the system."
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:491
+msgid "Requesting for: "
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:497
+msgid "Response Information:"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:35
+msgid "Return to Plugin Installer"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:59
+msgid "Return to Theme Installer"
+msgstr ""
+
+#: static/partials/settings.php:66
+msgid "Save Changes"
+msgstr "Változtatások mentése"
+
+#: includes/class-hellopack-util.php:173
+msgid "Saved %2$s: %1$d"
+msgstr "Mentett %2$s: %1$d"
+
+#: includes/settings/class-hellopack-admin.php:508
+msgid "Saving extra settings:"
+msgstr ""
+
+#: includes/class-hellopack-util.php:159
+msgid "Schema Information: "
+msgstr "Információk: "
+
+#. translators: 1: schema update operation for either Theme or Plugins
+#: includes/class-hellopack-util.php:141
+msgid "Schema update operation for: %1$s"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-installer.php:147
+msgid "Search"
+msgstr "Keresés"
+
+#: includes/modules/module-hellopack-plugin-installer.php:130
+#: includes/modules/module-hellopack-plugin-installer.php:134
+#: includes/modules/module-hellopack-plugin-installer.php:138
+msgid "Search HelloPack plugins..."
+msgstr "Keresés a HelloPack bővítménykönyvtárban..."
+
+#: includes/class-hellopack-util.php:44 static/partials/header.php:112
+#: static/partials/settings.php:39
+msgid "Settings"
+msgstr "Beállítások"
+
+#: includes/settings/class-hellopack-admin.php:250
+msgid "Silent mode"
+msgstr "Csendes üzemmód"
+
+#: includes/settings/class-hellopack-admin.php:549
+msgid ""
+"Silent mode disables notifications in WordPress. Attention! Certain plugins "
+"may not function properly as a result."
+msgstr ""
+"A csendes üzemmód kikapcsolja az összes WordPress értesítést. Figyelem! Pár "
+"bővítmény az értesítés hook-ra köti a menüpontjait, így ha ezt bekapcsolod, "
+"akkor nem fog megjelenni."
+
+#: static/scripts/hp-settings.js:143 static/scripts/hp-settings.js:183
+msgid "Status"
+msgstr "API-kulcs"
+
+#. translators: 1: status of fetched schema Error or Success
+#: includes/class-hellopack-util.php:144
+msgid "STATUS: %1$s"
+msgstr "ÁLLAPOT: %1$s"
+
+#: includes/class-hellopack-util.php:33
+msgid "Support"
+msgstr "Támogatás"
+
+#: static/partials/header.php:92
+msgid "Tester"
+msgstr "Tesztelő"
+
+#: includes/modules/module-hellopack-jetHelloPack.php:12
+msgid ""
+"The <strong>JetHelloPack</strong> plugin is active on your site, but it is "
+"no longer needed. You can safely deactivate and delete it."
+msgstr ""
+"A <strong>JetHelloPack</strong> bővítmény aktív az oldaladon, de már nincs "
+"rá szükség. Nyugodtan kikapcsolhatod és törölheted."
+
+#. translators: 1: class name 2: hellopack_logging_class 3: HPack_Logger_Interface
+#: includes/hellopack-functions.php:146
+msgid "The class %1$s provided by %2$s filter must implement %3$s."
+msgstr "A (z)%1$s %1$s osztályt a%2$s szűrőnek végre kell hajtania%3$s."
+
+#. translators: 1: class name 2: HPack_Log_Handler_Interface
+#: includes/logger/class-hellopack-logger.php:47
+msgid "The provided handler %1$s does not implement %2$s."
+msgstr "A megadott%1$s kezelő nem hajtja végre a következőt:%2$s."
+
+#: includes/settings/class-hellopack-admin.php:423
+msgid ""
+"This API key is inactive or does not belong to the domain. Check the API key "
+"here: "
+msgstr ""
+"Ez a API-kulcs inaktív, vagy nem a domainhez tartozik. Ellenőrizd kulcsot "
+"itt:"
+
+#: includes/logger/handlers/class-hellopack-log-handler-file.php:344
+#: includes/logger/handlers/class-hellopack-log-handler-file.php:364
+msgid "This method should not be called before plugins_loaded."
+msgstr ""
+"Ez a függvény nem hívható a plugin-ok betöltése (plugins_loaded hook) előtt."
+
+#: includes/class-hellopack-updater.php:296
+msgid "Thrice daily"
+msgstr ""
+
+#: static/scripts/hp-settings.js:145 static/scripts/hp-settings.js:185
+msgid "Total Activated"
+msgstr "Összes aktiválások száma"
+
+#: includes/modules/module-hellopack-plugin-tester.php:71
+#: includes/modules/module-hellopack-plugin-tester.php:74
+#: static/partials/settings.php:95
+msgid "Troubleshooting"
+msgstr "Hibaelhárítás"
+
+#: includes/api/class-hellopack-api-manager.php:492
+msgid "Unknown"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:446
+msgid "Unknown error occurred during activation process"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:613
+#: includes/settings/class-hellopack-admin.php:674
+msgid "Unknown error occurred during deactivation process"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:66
+#: includes/modules/tester/tester-class.php:95
+msgid "Unlimited"
+msgstr ""
+
+#. Description of the plugin
+msgid "Updates for premium addons"
+msgstr "Csomagkezelő bővítmény a HelloPack-os bővítmények kezeléséhez. "
+
+#: includes/api/class-hellopack-api-manager.php:469
+msgid "Valid download URL returned."
+msgstr ""
+
+#: includes/class-hellopack-util.php:32
+msgid "View HelloPack documentation"
+msgstr ""
+
+#: includes/class-hellopack-util.php:33
+msgid "Visit customer support"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:74
+msgid ""
+"We have compiled the issues that typically arise when using HelloPack. "
+"Please review them: "
+msgstr ""
+"Összeszedtük azokat a problémákat, ami miatt általában gondot szoktak "
+"jelentkezni a HelloPack használata mellett.<br> Nézd át a"
+
+#: includes/modules/tester/tester-class.php:289
+msgid "WordPress File Permissions"
+msgstr "WordPress fájl jogosultságok"
+
+#: includes/modules/tester/tester-class.php:279
+msgid "WordPress Filesystem"
+msgstr "WordPress Fájlrendszer"
+
+#: static/notices/html-notice-cron.php:8
+msgid "WP CRON Deactivated!"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:247
+msgid "WP Debug is disabled, all ok."
+msgstr "A WP Debug ki van kapcsolva. Rendben van. "
+
+#: includes/settings/class-hellopack-admin.php:346
+msgid "You are using an old API key!"
+msgstr "Régi API-kulcsot használsz!"
+
+#: includes/settings/class-hellopack-admin.php:344
+msgid "You are using the new API system!"
+msgstr "Az új API-rendszert használod! Minden ok! "
+
+#: includes/modules/module-hellopack-plugin-tester.php:86
+msgid ""
+"You can copy the below info as simple text with Ctrl+C and Ctrl+V | ⌘+C and "
+"⌘+V"
+msgstr ""
+"Ezt a szöveget könnyedén kimásolhatod. Csak kattints bele és nyomd meg a "
+"Ctrl+C és Ctrl+V billentyűket | ⌘+C és ⌘+V billentyűket"
+
+#: static/partials/settings.php:41
+msgid "You can manage the HelloPack package manager here."
+msgstr ""
+"Ezen a felületen tudsz különböző beállításokat elvégezni a HelloPack "
+"csomagkezelőn."
+
+#: static/partials/settings.php:31
+msgid ""
+"You can manage the HelloPack package manager here. You can activate your "
+"license key,<br> manage your plugins, and more."
+msgstr ""
+"Ezen a felületen tudsz különböző beállításokat elvégezni a HelloPack "
+"csomagkezelőn. Itt aktiválhatod az API-kulcsodat, illetve itt kezelheted a "
+"bővítményeket."
+
+#: includes/settings/class-hellopack-admin.php:365
+msgid "You can use this domain for creating the API key."
+msgstr "Ezt a domaint használhatod az API-kulcskészítőben."
+
+#: includes/settings/class-hellopack-admin.php:482
+msgid "Your license is already activated!"
+msgstr "A kulcsod már aktiválva van!"
+
+#: static/notices/notice-inactive.php:9
+msgid ""
+"Your plugin is inactive at the server. Please, activate your license again "
+"to get access to HPack themes and plugins."
+msgstr ""
+
+#. translators: 1: title of the plugin 2: link for purchasing new license
+#: static/notices/notice-pending-subscription.php:12
+msgid ""
+"Your subscription is awaiting for cancellation. To continue using the %1$s, "
+"please reactivate your subscription at %2$s."
+msgstr ""
+
+#: static/notices/notice-pending-subscription.php:10
+msgid "Your subscription is Pending Cancellation"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:254
+msgid "ZipArchive is available."
+msgstr "ZipArchive elérhető. "
+
+#: includes/modules/tester/tester-class.php:254
+msgid ""
+"ZipArchive is not available. If you have issues installing or updating items "
+"please ask your hosting provider to enable ZipArchive."
+msgstr ""
+"ZipArchive nem érhető el. Ez hatással lehet a WordPress megfelelő működésére,"
+" kérlek, hogy vedd fel a kapcsolatot a tárhelyszolgáltatóddal és kérd meg, "
+"hogy engedélyezzék számodra. "
+
+#: includes/modules/tester/tester-class.php:253
+msgid "ZipArchive Support"
+msgstr "ZipArchive támogatás"

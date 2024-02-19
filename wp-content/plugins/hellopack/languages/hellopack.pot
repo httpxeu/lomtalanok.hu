@@ -1,0 +1,781 @@
+# Copyright (C) 2023 HelloWP Ltd
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: HelloPack 1.2.17\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/hellopack\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-21T06:54:27+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: hellopack\n"
+
+#. Plugin Name of the plugin
+#: includes/modules/module-hellopack-plugin-installer.php:106
+#: includes/settings/class-hellopack-admin.php:109
+#: includes/settings/class-hellopack-admin.php:110
+#: includes/settings/class-hellopack-admin.php:119
+#: includes/settings/class-hellopack-admin.php:120
+msgid "HelloPack"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://hellowp.io"
+msgstr ""
+
+#. Description of the plugin
+msgid "Updates for premium addons"
+msgstr ""
+
+#. Author of the plugin
+msgid "HelloWP Ltd"
+msgstr ""
+
+#: hellopack-updater.php:34
+msgid "For proper functioning of the <strong>HelloPack</strong> plugin, a minimum of PHP 7.4 is required. This is highly recommended for both security and technical reasons. Ask your hosting provider to do this if you are unsure."
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:469
+msgid "Valid download URL returned."
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:491
+msgid "Requesting for: "
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:492
+msgid "Unknown"
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:494
+msgid "Request data:"
+msgstr ""
+
+#: includes/api/class-hellopack-api-manager.php:497
+msgid "Response Information:"
+msgstr ""
+
+#: includes/class-hellopack-updater.php:296
+msgid "Thrice daily"
+msgstr ""
+
+#: includes/class-hellopack-updater.php:301
+msgid "Four times daily"
+msgstr ""
+
+#: includes/class-hellopack-updater.php:306
+msgid "Every two hours"
+msgstr ""
+
+#: includes/class-hellopack-util.php:32
+msgid "View HelloPack documentation"
+msgstr ""
+
+#: includes/class-hellopack-util.php:32
+msgid "Docs"
+msgstr ""
+
+#: includes/class-hellopack-util.php:33
+msgid "Visit customer support"
+msgstr ""
+
+#: includes/class-hellopack-util.php:33
+msgid "Support"
+msgstr ""
+
+#: includes/class-hellopack-util.php:44
+#: static/partials/header.php:112
+#: static/partials/settings.php:39
+msgid "Settings"
+msgstr ""
+
+#. translators: 1: schema update operation for either Theme or Plugins
+#: includes/class-hellopack-util.php:141
+msgid "Schema update operation for: %1$s"
+msgstr ""
+
+#. translators: 1: status of fetched schema Error or Success
+#: includes/class-hellopack-util.php:144
+msgid "STATUS: %1$s"
+msgstr ""
+
+#: includes/class-hellopack-util.php:159
+msgid "Schema Information: "
+msgstr ""
+
+#: includes/class-hellopack-util.php:172
+msgid "%1$s Schema found in the database."
+msgstr ""
+
+#: includes/class-hellopack-util.php:173
+msgid "Saved %2$s: %1$d"
+msgstr ""
+
+#. translators: 1: class name 2: hellopack_logging_class 3: HPack_Logger_Interface
+#: includes/hellopack-functions.php:146
+msgid "The class %1$s provided by %2$s filter must implement %3$s."
+msgstr ""
+
+#. translators: 1: class name 2: HPack_Log_Handler_Interface
+#: includes/logger/class-hellopack-logger.php:47
+msgid "The provided handler %1$s does not implement %2$s."
+msgstr ""
+
+#. translators: 1: HPack_Logger::log 2: level
+#: includes/logger/class-hellopack-logger.php:127
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr ""
+
+#: includes/logger/handlers/class-hellopack-log-handler-file.php:344
+#: includes/logger/handlers/class-hellopack-log-handler-file.php:364
+msgid "This method should not be called before plugins_loaded."
+msgstr ""
+
+#: includes/modules/module-hellopack-elementor.php:14
+msgid "<strong>The current Elementor PRO version on the site is outdated</strong>, and it is not compatible with HelloPack. Please upgrade to at least Elementor PRO 3.9.2. This is highly recommended for technical and security reasons."
+msgstr ""
+
+#: includes/modules/module-hellopack-jetHelloPack.php:12
+msgid "The <strong>JetHelloPack</strong> plugin is active on your site, but it is no longer needed. You can safely deactivate and delete it."
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-installer.php:130
+#: includes/modules/module-hellopack-plugin-installer.php:134
+#: includes/modules/module-hellopack-plugin-installer.php:138
+msgid "Search HelloPack plugins..."
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-installer.php:141
+msgid "Install plugins from the HelloPack repository."
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-installer.php:147
+msgid "Search"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:24
+#: includes/modules/module-hellopack-plugin-tester.php:25
+msgid "HelloPack tester"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:47
+#: includes/modules/module-hellopack-plugin-tester.php:92
+msgid "Hosting and communication test"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:49
+msgid "Check the necessary hosting settings and communication between servers."
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:71
+#: includes/modules/module-hellopack-plugin-tester.php:74
+#: static/partials/settings.php:95
+msgid "Troubleshooting"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:74
+msgid "We have compiled the issues that typically arise when using HelloPack. Please review them: "
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:86
+msgid "Copy & Paste Info"
+msgstr ""
+
+#: includes/modules/module-hellopack-plugin-tester.php:86
+msgid "You can copy the below info as simple text with Ctrl+C and Ctrl+V | ⌘+C and ⌘+V"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:66
+#: includes/modules/tester/tester-class.php:95
+msgid "Unlimited"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:70
+#: includes/modules/tester/tester-class.php:76
+#: includes/modules/tester/tester-class.php:83
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:72
+#: includes/modules/tester/tester-class.php:78
+#: includes/modules/tester/tester-class.php:100
+#: includes/modules/tester/tester-class.php:119
+msgid "is ok at "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:72
+msgid " may be enough, however, for proper functioning of Elementor Pro, a minimum of 1024 M memory limit is recommended. If you are having issues please set your PHP memory limit to at least 1024M - or ask your hosting provider to do this if you're unsure. <a href='https://elementor.com/help/requirements/' target='_blank'>Elementor’s system requirements</a>"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:78
+msgid " may be too small. If you are having issues please set your PHP memory limit to at least 256M - or ask your hosting provider to do this if you're unsure."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:85
+msgid "Failed to check memory limit. If you are having issues please ask hosting provider to raise the memory limit for you."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:99
+#: includes/modules/tester/tester-class.php:104
+msgid "PHP Upload Limits"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:100
+msgid " may be too small. If you are having issues please set your PHP upload limits to at least "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:100
+#: includes/modules/tester/tester-class.php:138
+msgid " - or ask your hosting provider to do this if you are unsure."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:106
+msgid "Failed to check upload limit. If you are having issues please ask hosting provider to raise the upload limit for you."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:118
+#: includes/modules/tester/tester-class.php:123
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:119
+msgid " may be too small. If you are having issues please set your PHP max input vars to at least "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:119
+msgid "- or ask your hosting provider to do this if you're unsure."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:125
+msgid "Failed to check input vars limit. If you are having issues please ask hosting provider to raise the input vars limit for you."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:137
+#: includes/modules/tester/tester-class.php:142
+msgid "PHP Execution Time"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:138
+msgid "PHP execution time limit is ok at "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:138
+msgid " is too small. Please set your PHP max execution time to at least "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:144
+msgid "Failed to check PHP execution time limit. Please ask hosting provider to raise this limit for you."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:153
+msgid "HelloPack API server"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:158
+msgid "HelloPack Client API server"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:163
+msgid "HelloPack Download server"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:177
+msgid "Connected ok."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:183
+msgid "Connection failed. Status "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:183
+msgid " Please ensure PHP is allowed to connect to the host "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:183
+msgid " - or ask your hosting provider to do this if you’re unsure. "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:190
+msgid "Connection failed. Please contact the hosting provider and ensure PHP is allowed to connect to the host "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:219
+msgid "Error message: "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:221
+#: includes/modules/tester/tester-class.php:239
+msgid "Please add your API key and activate the HelloPack plugin again."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:225
+#: includes/modules/tester/tester-class.php:231
+#: includes/modules/tester/tester-class.php:238
+msgid "HelloPack API status"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:226
+msgid "Not currently authenticated with the HelloPack API. "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:232
+msgid "Authenticated with the HelloPack API. All ok."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:247
+msgid "If you are on a production website, it is best to set WP_DEBUG to false, please ask your hosting provider to do this if you are unsure. <a href=\"https://codex.wordpress.org/Debugging_in_WordPress\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:247
+msgid "WP Debug is disabled, all ok."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:253
+msgid "ZipArchive Support"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:254
+msgid "ZipArchive is available."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:254
+msgid "ZipArchive is not available. If you have issues installing or updating items please ask your hosting provider to enable ZipArchive."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:260
+#: includes/modules/tester/tester-class.php:268
+msgid "PHP Version"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:261
+msgid "PHP version is ok at "
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:261
+msgid "Please ask the hosting provider to upgrade your PHP version to at least 7.0 or above."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:269
+msgid "Many plugins (such as Elementor Pro) and WordPress itself are not compatible with PHP 8.1. Please use at most PHP 8.0."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:279
+msgid "WordPress Filesystem"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:280
+msgid "Please enable WordPress FS_METHOD direct - or ask your hosting provider to do this if you’re unsure."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:289
+msgid "WordPress File Permissions"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:290
+msgid "is ok."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:290
+msgid "Please set correct WordPress PHP write permissions for the wp-content directory - or ask your hosting provider to do this if you’re unsure."
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:298
+msgid "Active Plugins"
+msgstr ""
+
+#: includes/modules/tester/tester-class.php:299
+msgid "Please try to reduce the number of active plugins on your WordPress site, as this will slow things down."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:152
+msgid "API Domain"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:160
+msgid "API Key"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:177
+msgid "License Status"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:185
+#: includes/settings/class-hellopack-admin.php:304
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:193
+msgid "Check License Status"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:201
+msgid "Cleanup Local Settings"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:234
+msgid "Disable Logging"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:242
+msgid "HelloPack menu"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:250
+msgid "Silent mode"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:258
+msgid "Hide plugins menu"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:278
+msgid "If you are having troubles with cleaning up activations or activations on both main server and your site are not in sync, please delete entries on main server from hellowp.io against this domain, then clean up local settings and try to activate your license once again."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:281
+msgid "Clean up local settings"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:292
+msgid "Check API Status from the server."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:293
+msgid "Check License"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:303
+msgid "Deactivate your current API activation on the main server <code>www.hellowp.io</code>"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:320
+#: static/scripts/hp-settings.js:147
+#: static/scripts/hp-settings.js:187
+msgid "Deactivated"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:322
+#: static/scripts/hp-settings.js:147
+#: static/scripts/hp-settings.js:187
+msgid "Activated"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:341
+#: includes/settings/class-hellopack-admin.php:352
+msgid "Please, enter the API key from HelloPack center page."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:344
+msgid "You are using the new API system!"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:346
+msgid "You are using an old API key!"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:348
+msgid "Change to the new key by 2023-07-01! You can find it here:"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:348
+msgid "API Key Creator"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:365
+msgid "You can use this domain for creating the API key."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:402
+#: includes/settings/class-hellopack-admin.php:659
+#: includes/settings/class-hellopack-admin.php:723
+msgid "Request is not authorized and recognized as insecure or malicious request to the system."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:411
+msgid "Both Product ID and API Key field is required   sss"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:417
+msgid "Checking License status..."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:421
+msgid "API Activation did not take place, because unknown error occurred."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:423
+msgid "This API key is inactive or does not belong to the domain. Check the API key here: "
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:438
+msgid "License status checked successfully!"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:441
+msgid "Activating License on the server..."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:446
+msgid "Unknown error occurred during activation process"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:453
+msgid "License activation failed: "
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:468
+msgid "License activated successfully! Please, check your Dashboard under \"API Keys\" section on hellowp.io."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:480
+msgid "License key already activated for this site."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:482
+msgid "Your license is already activated!"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:491
+msgid "Processing extra settings..."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:508
+msgid "Saving extra settings:"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:523
+msgid "Disable WooCommerce Updater notice"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:523
+#: includes/settings/class-hellopack-admin.php:561
+msgid "If you enable it, the built-in plugin installer will be hidden."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:531
+msgid "Diable the HelloPack logging."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:539
+msgid "Move the HelloPack menu item under the Plugins menu."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:549
+msgid "Silent mode disables notifications in WordPress. Attention! Certain plugins may not function properly as a result."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:578
+msgid "License"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:579
+msgid "Extra"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:606
+msgid "Ajax request was initiated from unauthorised source."
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:613
+#: includes/settings/class-hellopack-admin.php:674
+msgid "Unknown error occurred during deactivation process"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:640
+#: includes/settings/class-hellopack-admin.php:706
+msgid "API Call could not be made for unknown reason"
+msgstr ""
+
+#: includes/settings/class-hellopack-admin.php:732
+msgid "Local settings is cleared!"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:24
+msgid "Activate Plugin"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:31
+msgid "Network Activate"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-installer-skin.php:35
+msgid "Return to Plugin Installer"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-upgrader.php:21
+#: includes/upgrader/class-hellopack-theme-upgrader.php:21
+msgid "Downloading the HPack upgrade package&#8230;"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-plugin-upgrader.php:33
+#: includes/upgrader/class-hellopack-theme-upgrader.php:33
+msgid "Downloading the HPack install package&#8230;"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:47
+msgid "Live Preview"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:47
+msgid "Live Preview &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:52
+msgid "Network Enable"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:57
+msgid "Activate"
+msgstr ""
+
+#. translators: 1: installing theme name
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:57
+msgid "Activate &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/upgrader/class-hellopack-theme-installer-skin.php:59
+msgid "Return to Theme Installer"
+msgstr ""
+
+#: static/notices/html-notice-activate.php:8
+msgid "HelloPack License Activation"
+msgstr ""
+
+#: static/notices/html-notice-activate.php:9
+msgid "Please, activate your license to get access to HelloPack and the plugins."
+msgstr ""
+
+#: static/notices/html-notice-cron.php:8
+msgid "WP CRON Deactivated!"
+msgstr ""
+
+#. translators: 1: constant definition to disable cron 2: value to activate cron
+#: static/notices/html-notice-cron.php:10
+msgid "HPack Updater depends on WP Cron to sync data, please remove %1$s or set to - %2$s."
+msgstr ""
+
+#: static/notices/html-notice-custom.php:10
+msgid "Dismiss"
+msgstr ""
+
+#. translators: 1: title of affecting items 2: host to add in whitelist 3: constant name where host should be added
+#: static/notices/html-notice-external-block.php:9
+msgid "<strong>Warning!</strong> You're blocking external requests which means you won't be able to get %1$s updates. Please add %2$s to %3$s."
+msgstr ""
+
+#. translators: 1: title of affecting items 2: host to add in whitelist 3: constant name where host should be added
+#: static/notices/html-notice-external-block.php:9
+msgid "HPack Plugins and Themes"
+msgstr ""
+
+#: static/notices/html-notice-status.php:8
+msgid "Attention!"
+msgstr ""
+
+#: static/notices/html-notice-status.php:9
+msgid "Maybe your license is not activated or unable to be verified by server. Please check your <strong><a href=\"https://hellowp.io/my-account\" target=\"_blank\" title=\"HPack Account\">Account page</a></strong> or contact Admin."
+msgstr ""
+
+#: static/notices/notice-inactive.php:8
+msgid "HPack Updater License Inactive"
+msgstr ""
+
+#: static/notices/notice-inactive.php:9
+msgid "Your plugin is inactive at the server. Please, activate your license again to get access to HPack themes and plugins."
+msgstr ""
+
+#: static/notices/notice-pending-subscription.php:10
+msgid "Your subscription is Pending Cancellation"
+msgstr ""
+
+#. translators: 1: title of the plugin 2: link for purchasing new license
+#: static/notices/notice-pending-subscription.php:12
+msgid "Your subscription is awaiting for cancellation. To continue using the %1$s, please reactivate your subscription at %2$s."
+msgstr ""
+
+#: static/partials/header.php:63
+#: static/partials/header.php:70
+msgid "HelloPack Dashboard"
+msgstr ""
+
+#: static/partials/header.php:85
+msgid "Dashboard"
+msgstr ""
+
+#: static/partials/header.php:92
+msgid "Tester"
+msgstr ""
+
+#: static/partials/header.php:103
+msgid "Plugins"
+msgstr ""
+
+#: static/partials/settings.php:29
+msgid "HelloPack License Key Activation"
+msgstr ""
+
+#: static/partials/settings.php:31
+msgid "You can manage the HelloPack package manager here. You can activate your license key,<br> manage your plugins, and more."
+msgstr ""
+
+#: static/partials/settings.php:41
+msgid "You can manage the HelloPack package manager here."
+msgstr ""
+
+#: static/partials/settings.php:62
+msgid "Activate API Key"
+msgstr ""
+
+#: static/partials/settings.php:66
+msgid "Save Changes"
+msgstr ""
+
+#: static/partials/settings.php:95
+msgid "Documentation"
+msgstr ""
+
+#: static/partials/settings.php:95
+msgid "Changelog"
+msgstr ""
+
+#: static/scripts/hp-settings.js:6
+msgid "__"
+msgstr ""
+
+#: static/scripts/hp-settings.js:7
+msgctxt "_x_context"
+msgid "_x"
+msgstr ""
+
+#: static/scripts/hp-settings.js:143
+#: static/scripts/hp-settings.js:183
+msgid "Status"
+msgstr ""
+
+#: static/scripts/hp-settings.js:144
+#: static/scripts/hp-settings.js:184
+msgid "Purchased Activations"
+msgstr ""
+
+#: static/scripts/hp-settings.js:145
+#: static/scripts/hp-settings.js:185
+msgid "Total Activated"
+msgstr ""
+
+#: static/scripts/hp-settings.js:146
+#: static/scripts/hp-settings.js:186
+msgid "Remaining Activations"
+msgstr ""
+
+#: static/scripts/hp-settings.js:147
+#: static/scripts/hp-settings.js:187
+msgid "Activated?"
+msgstr ""
